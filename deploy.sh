@@ -15,7 +15,7 @@ fi
 echo $server:$port
 npm run export
 # ssh $server << EOF
-scp -r ./out/* "$server":/www/wwwroot/website-casami
+scp -r ./out/* "$server":/www/wwwroot/luzlure
 # scp -r ./out/* "$server":/www/wwwroot/trendyze
 # scp -r ./out/* "$server":/www/wwwroot/shop-zon
 # EOF
