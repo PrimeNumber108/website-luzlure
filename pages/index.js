@@ -15,7 +15,7 @@ const users = [
     name: "Jessica Bennett",
     comment:
       "Discover unique and effective marketing strategies from this service. The dedicated and creative team significantly boosted our brand visibility.",
-    image: "/image/users/user-2.png",
+    image: "/image/users/user-2.jpeg",
     rating: 5,
   },
   {
@@ -88,7 +88,7 @@ export default function Home() {
             src="/image/banners/banner-3.jpeg"
             alt="LUZLURE"
             fill
-            className="object-cover object-center w-full h-full -z-10 brightness-[0.8]"
+            className="object-cover object-top w-full h-full -z-10 brightness-[0.8]"
           />
         </div>
         <div className="absolute inset-0 flex">
