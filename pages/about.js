@@ -6,10 +6,10 @@ const About = () => {
     <>
       <div className="relative w-full min-h-screen">
         <Image
-          src={"/image/banners/banner-5.jpeg"}
+          src={"/image/banners/banner-5.jpg"}
           alt="LUZLURE"
           fill
-          className="object-cover object-left-top w-full h-full -z-10 brightness-[0.85]"
+          className="object-cover object-center w-full h-full -z-10 brightness-[0.85]"
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="w-full sm:w-[500px] flex justify-center items-center flex-col lg:gap-9 gap-4">
@@ -45,7 +45,7 @@ const About = () => {
       <div className="relative w-full min-h-screen">
         <div className="absolute inset-0">
           <Image
-            src={"/image/banners/banner-6.png"}
+            src={"/image/banners/banner-6.jpg"}
             alt="LUZLURE"
             fill
             className="object-cover object-center w-full h-full -z-10 brightness-[0.85]"
